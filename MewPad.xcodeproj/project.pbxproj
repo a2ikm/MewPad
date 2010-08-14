@@ -30,6 +30,7 @@
 		77C8280C06725ACE000B614F /* MewPad_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MewPad_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MewPad-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "MewPad-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MewPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MewPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D695754512166ABC0083824A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		D6F0EF07121669900000BE23 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
 		D6F0EF08121669900000BE23 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +129,7 @@
 				770B37EC0679A11B001EADE2 /* MewPad_DataModel.xcdatamodel */,
 				D6F0EF07121669900000BE23 /* Note.h */,
 				D6F0EF08121669900000BE23 /* Note.m */,
+				D695754512166ABC0083824A /* README.markdown */,
 			);
 			name = Models;
 			sourceTree = "<group>";
