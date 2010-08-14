@@ -13,6 +13,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D6F0EF09121669900000BE23 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0EF08121669900000BE23 /* Note.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		77C8280C06725ACE000B614F /* MewPad_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MewPad_AppDelegate.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MewPad-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "MewPad-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MewPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MewPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F0EF07121669900000BE23 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		D6F0EF08121669900000BE23 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				770B37EC0679A11B001EADE2 /* MewPad_DataModel.xcdatamodel */,
+				D6F0EF07121669900000BE23 /* Note.h */,
+				D6F0EF08121669900000BE23 /* Note.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* MewPad_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* MewPad_DataModel.xcdatamodel in Sources */,
+				D6F0EF09121669900000BE23 /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
